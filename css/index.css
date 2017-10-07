@@ -1,0 +1,36 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background-color: coral;
+  font-size: 0.12rem; }
+
+.header {
+  height: 0.45rem;
+  background-color: burlywood; }
+  .header > h1 {
+    text-align: center;
+    line-height: 0.45rem;
+    font-size: 0.14rem; }
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .section .table {
+    margin: 20px auto; }
+    .section .table tr td {
+      text-align: center;
+      width: 150px; }
+
+.footer {
+  height: 0.45rem;
+  background-color: burlywood; }
+  .footer > h2 {
+    text-align: center;
+    line-height: 0.45rem;
+    font-size: 0.14rem; }
+
+/*# sourceMappingURL=index.css.map */

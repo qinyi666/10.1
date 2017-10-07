@@ -1,0 +1,19 @@
+{
+  "post":[
+    {
+      "id":1,
+      "title":"哭不出来",
+      "author":"邓伦"
+    }
+  ],
+  "comments":[
+    {
+      "id":1,
+      "body":"some comment",
+      "postId":1
+    }
+  ],
+  "profile":{
+    "name":"tyicode"
+  }
+}
